@@ -20,7 +20,7 @@ jobs:
           node-version: 16
       - name: npm install and build webpack
         run: |
-          npm install
+          npm install --force
           npm run build
       - uses: actions/upload-artifact@v4
         with:
@@ -93,3 +93,4 @@ jobs:
             az logout
             az cache purge
             az account clear
+            
