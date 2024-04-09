@@ -6,8 +6,8 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  DOCKER_IMAGE_NAME: semal31-azure-ttt
-  AZURE_WEBAPP_NAME: semal31-ttt-app
+  DOCKER_IMAGE_NAME: Semal31-azure-ttt
+  AZURE_WEBAPP_NAME: Semal31-ttt-app
 
 jobs:
   build:
